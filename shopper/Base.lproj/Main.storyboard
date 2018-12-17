@@ -27,25 +27,47 @@
                                     <constraint firstAttribute="width" constant="60" id="mXX-KD-OKT"/>
                                 </constraints>
                             </imageView>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Your hourly wage" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="AdF-Su-mnU" customClass="CurrencyTxtField" customModule="shopper" customModuleProvider="target">
-                                <rect key="frame" x="69" y="164" width="237" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Your hourly wage" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="AdF-Su-mnU" customClass="CurrencyTxtField" customModule="shopper" customModuleProvider="target">
+                                <rect key="frame" x="20" y="150" width="335" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="ZMV-Eo-prD"/>
+                                </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Item price" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oq3-2N-Z3z" customClass="CurrencyTxtField" customModule="shopper" customModuleProvider="target">
+                                <rect key="frame" x="20" y="215" width="335" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="NS5-zq-WSn"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad" enablesReturnKeyAutomatically="YES"/>
                             </textField>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="oq3-2N-Z3z" firstAttribute="height" secondItem="AdF-Su-mnU" secondAttribute="height" id="8oN-Rk-xO5"/>
                             <constraint firstItem="Yxl-wR-cH8" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="35" id="BFs-GI-yPK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="AdF-Su-mnU" secondAttribute="trailing" constant="20" id="R4v-mm-UdB"/>
                             <constraint firstItem="H1l-Ed-8IE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="caa-Na-Hxm"/>
                             <constraint firstItem="Yxl-wR-cH8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="glZ-Dl-FKM"/>
+                            <constraint firstItem="oq3-2N-Z3z" firstAttribute="top" secondItem="AdF-Su-mnU" secondAttribute="bottom" constant="25" id="hsb-jB-gUx"/>
+                            <constraint firstItem="oq3-2N-Z3z" firstAttribute="trailing" secondItem="AdF-Su-mnU" secondAttribute="trailing" id="igx-sW-ZFa"/>
                             <constraint firstItem="H1l-Ed-8IE" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="ijC-O7-qle"/>
                             <constraint firstItem="H1l-Ed-8IE" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="jZM-i3-AID"/>
                             <constraint firstItem="H1l-Ed-8IE" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="lCT-WM-D5w"/>
+                            <constraint firstItem="AdF-Su-mnU" firstAttribute="top" secondItem="Yxl-wR-cH8" secondAttribute="bottom" constant="35" id="mAE-pZ-Fe9"/>
+                            <constraint firstItem="oq3-2N-Z3z" firstAttribute="leading" secondItem="AdF-Su-mnU" secondAttribute="leading" id="qIo-d9-7Et"/>
+                            <constraint firstItem="AdF-Su-mnU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="zOl-b3-v07"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="priceTxt" destination="oq3-2N-Z3z" id="fCu-lf-QkB"/>
+                        <outlet property="wageTxt" destination="AdF-Su-mnU" id="d3h-1e-3kx"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
