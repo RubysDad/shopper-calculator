@@ -97,68 +97,6 @@
             endingLineNumber = "12"
             landmarkName = "AppDelegate"
             landmarkType = "3">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "shopper.AppDelegate.__allocating_init() -&gt; shopper.AppDelegate"
-                  moduleName = "shopper"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mark.morales/swift/shopper/shopper/AppDelegate.swift"
-                  timestampString = "566931217.31383"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "0"
-                  endingLineNumber = "0"
-                  offsetFromSymbolStart = "4">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "shopper.AppDelegate.init() -&gt; shopper.AppDelegate"
-                  moduleName = "shopper"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mark.morales/swift/shopper/shopper/AppDelegate.swift"
-                  timestampString = "566931217.315542"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "14"
-                  endingLineNumber = "14"
-                  offsetFromSymbolStart = "20">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "shopper.AppDelegate.__deallocating_deinit"
-                  moduleName = "shopper"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mark.morales/swift/shopper/shopper/AppDelegate.swift"
-                  timestampString = "566931217.317633"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "0"
-                  endingLineNumber = "0"
-                  offsetFromSymbolStart = "16">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "main"
-                  moduleName = "shopper"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mark.morales/swift/shopper/shopper/AppDelegate.swift"
-                  timestampString = "566931217.319972"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "12"
-                  endingLineNumber = "12"
-                  offsetFromSymbolStart = "12">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
