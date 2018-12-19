@@ -11,6 +11,7 @@ import Foundation
 class Wage {
     class func getHours(forWage wage: Double, andPrice price: Double) -> Int {
         // forWage is the parameter name and wage is the variable
+//        print("\(Int(ceil(price / wage)))")
         return Int(ceil(price / wage))
     }
 }
