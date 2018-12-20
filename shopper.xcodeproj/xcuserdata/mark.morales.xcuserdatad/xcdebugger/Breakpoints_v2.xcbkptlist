@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "shopper/Controller/MainVC.swift"
-            timestampString = "566947535.257735"
+            timestampString = "567028648.1303329"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "31"
-            endingLineNumber = "31"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
@@ -26,7 +26,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "shopper/AppDelegate.swift"
-            timestampString = "566949341.06304"
+            timestampString = "567028648.13103"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "30"
@@ -42,7 +42,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "shopper/AppDelegate.swift"
-            timestampString = "566949341.063388"
+            timestampString = "567028648.131233"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "29"
@@ -58,7 +58,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "shopper/AppDelegate.swift"
-            timestampString = "566949341.06347"
+            timestampString = "567028648.1312881"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "28"
@@ -74,7 +74,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "shopper/AppDelegate.swift"
-            timestampString = "566949341.06353"
+            timestampString = "567028648.131339"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "27"
@@ -90,13 +90,75 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "shopper/AppDelegate.swift"
-            timestampString = "566949341.06359"
+            timestampString = "567028648.131386"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "12"
             endingLineNumber = "12"
             landmarkName = "AppDelegate"
             landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "shopper.AppDelegate.__allocating_init() -&gt; shopper.AppDelegate"
+                  moduleName = "shopper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mark.morales/swift/shopper/shopper/AppDelegate.swift"
+                  timestampString = "567027930.3816971"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "shopper.AppDelegate.init() -&gt; shopper.AppDelegate"
+                  moduleName = "shopper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mark.morales/swift/shopper/shopper/AppDelegate.swift"
+                  timestampString = "567027930.383288"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "shopper.AppDelegate.__deallocating_deinit"
+                  moduleName = "shopper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mark.morales/swift/shopper/shopper/AppDelegate.swift"
+                  timestampString = "567027930.3862309"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "shopper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mark.morales/swift/shopper/shopper/AppDelegate.swift"
+                  timestampString = "567027930.390708"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "12">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -106,11 +168,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "shopper/Controller/MainVC.swift"
-            timestampString = "566947535.258885"
+            timestampString = "567028648.131441"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "22"
-            endingLineNumber = "22"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
